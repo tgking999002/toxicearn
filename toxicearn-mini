@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toxic Earn - TG Earning Bot</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0a0a2e, #1a0033);
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        .banner {
+            width: 100%;
+            max-width: 640px;
+            height: 360px;
+            margin: 0 auto;
+            display: block;
+        }
+        .container {
+            padding: 20px;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            margin: 15px 0;
+            text-shadow: 0 0 20px #00ffff;
+        }
+        .balance {
+            text-align: center;
+            font-size: 42px;
+            font-weight: bold;
+            color: #00ffcc;
+            margin: 10px 0;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 20px;
+            margin: 15px 0;
+            border: 1px solid rgba(0,255,255,0.2);
+        }
+        button {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(90deg, #00ffff, #ff00ff);
+            color: black;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <img src="TG_Earning_Bot_Banner.gif" class="banner" alt="TG Earning Bot">
+
+    <div class="container">
+        <h1>Toxic Earn Bot</h1>
+        <div class="balance">১২,৫৬৪.৭৫ <small>TON</small></div>
+        
+        <div class="card">
+            <h2>আজকের আয়: ১২৫ TON</h2>
+        </div>
+
+        <button onclick="claimDaily()">দৈনিক বোনাস নিন (৫০ TON)</button>
+        <button onclick="doTask()">টাস্ক সম্পন্ন করুন</button>
+        <button onclick="withdraw()">উত্তোলন করুন</button>
+    </div>
+
+    <script>
+        function claimDaily() {
+            alert("✅ দৈনিক বোনাস সফলভাবে পেয়েছেন! +৫০ TON");
+        }
+        function doTask() {
+            alert("✅ টাস্ক সম্পন্ন হয়েছে! +৩০ TON");
+        }
+        function withdraw() {
+            alert("💰 উত্তোলনের অনুরোধ পাঠানো হয়েছে!");
+        }
+    </script>
+</body>
+</html>
