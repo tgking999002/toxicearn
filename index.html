@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toxic Earn Bot</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #0a0a2e, #2a0044);
+            color: white;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .banner {
+            width: 100%;
+            max-width: 640px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .container {
+            padding: 20px;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 28px; margin: 15px 0; text-shadow: 0 0 20px #00ffff; }
+        .balance { font-size: 40px; font-weight: bold; color: #00ffcc; margin: 10px 0 25px; }
+        button {
+            width: 100%;
+            padding: 18px;
+            margin: 12px 0;
+            background: linear-gradient(90deg, #00ffff, #ff00ff);
+            color: black;
+            border: none;
+            border-radius: 12px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <img src="TG_Earning_Bot_Banner.gif" class="banner" alt="TG Earning Bot">
+
+    <div class="container">
+        <h1>Toxic Earn Bot</h1>
+        <div class="balance">১২,৫৬৭.৩৫ TON</div>
+        
+        <button onclick="claimBonus()">দৈনিক বোনাস নিন</button>
+        <button onclick="completeTask()">টাস্ক সম্পন্ন করুন</button>
+        <button onclick="withdraw()">উত্তোলন করুন</button>
+    </div>
+
+    <script>
+        function claimBonus() { alert("✅ +৫০ TON বোনাস পেয়েছেন!"); }
+        function completeTask() { alert("✅ টাস্ক সম্পন্ন হয়েছে!"); }
+        function withdraw() { alert("💰 উত্তোলনের অনুরোধ পাঠানো হয়েছে"); }
+    </script>
+</body>
+</html>
+
