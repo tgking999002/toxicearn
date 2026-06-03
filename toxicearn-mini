@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toxic Earn - TG Earning Bot</title>
+    <title>Toxic Earn Bot</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #0a0a2e, #1a0033);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0a2e, #2a0044);
             color: white;
             min-height: 100vh;
-            overflow-x: hidden;
         }
         .banner {
             width: 100%;
+            height: auto;
             max-width: 640px;
-            height: 360px;
-            margin: 0 auto;
             display: block;
+            margin: 0 auto;
         }
         .container {
             padding: 20px;
@@ -28,61 +27,61 @@
         h1 {
             text-align: center;
             font-size: 28px;
-            margin: 15px 0;
-            text-shadow: 0 0 20px #00ffff;
+            margin: 20px 0 10px;
+            text-shadow: 0 0 15px #00ffff;
         }
         .balance {
             text-align: center;
-            font-size: 42px;
+            font-size: 38px;
             font-weight: bold;
             color: #00ffcc;
-            margin: 10px 0;
+            margin: 10px 0 20px;
         }
         .card {
-            background: rgba(255,255,255,0.05);
+            background: rgba(255,255,255,0.08);
             border-radius: 16px;
-            padding: 20px;
+            padding: 18px;
             margin: 15px 0;
-            border: 1px solid rgba(0,255,255,0.2);
+            border: 1px solid rgba(0, 255, 255, 0.3);
         }
         button {
             width: 100%;
-            padding: 16px;
+            padding: 18px;
+            margin: 12px 0;
             background: linear-gradient(90deg, #00ffff, #ff00ff);
             color: black;
             border: none;
             border-radius: 12px;
-            font-size: 18px;
+            font-size: 17px;
             font-weight: bold;
-            margin: 10px 0;
         }
     </style>
 </head>
 <body>
-    <img src="TG_Earning_Bot_Banner.gif" class="banner" alt="TG Earning Bot">
+    <img src="TG_Earning_Bot_Banner.gif" class="banner" alt="TG Earning Bot Banner">
 
     <div class="container">
         <h1>Toxic Earn Bot</h1>
-        <div class="balance">১২,৫৬৪.৭৫ <small>TON</small></div>
-        
+        <div class="balance">১২,৪৫০.৭৫ TON</div>
+
         <div class="card">
-            <h2>আজকের আয়: ১২৫ TON</h2>
+            <strong>আজকের আয়:</strong> ১৮৫ TON
         </div>
 
-        <button onclick="claimDaily()">দৈনিক বোনাস নিন (৫০ TON)</button>
-        <button onclick="doTask()">টাস্ক সম্পন্ন করুন</button>
+        <button onclick="claimBonus()">দৈনিক বোনাস নিন</button>
+        <button onclick="completeTask()">টাস্ক সম্পন্ন করুন</button>
         <button onclick="withdraw()">উত্তোলন করুন</button>
     </div>
 
     <script>
-        function claimDaily() {
-            alert("✅ দৈনিক বোনাস সফলভাবে পেয়েছেন! +৫০ TON");
+        function claimBonus() {
+            alert("✅ দৈনিক বোনাস পেয়েছেন! +৫০ TON");
         }
-        function doTask() {
-            alert("✅ টাস্ক সম্পন্ন হয়েছে! +৩০ TON");
+        function completeTask() {
+            alert("✅ টাস্ক সম্পন্ন হয়েছে! +৩৫ TON");
         }
         function withdraw() {
-            alert("💰 উত্তোলনের অনুরোধ পাঠানো হয়েছে!");
+            alert("💰 উত্তোলনের অনুরোধ পাঠানো হয়েছে।");
         }
     </script>
 </body>
